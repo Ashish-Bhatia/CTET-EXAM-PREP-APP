@@ -57,7 +57,9 @@ OFFICIAL FACT
 - The bulletin lists 27 available language options with language codes.
 - A score of 60% or more is stated as TET pass, subject to the bulletin's stated qualifying framework.
 - The CTET qualifying certificate is stated to have lifetime validity for all categories, with no restriction on attempts and with an option to reappear for score improvement.
-- Topic-level weightage is not asserted as an official published percentage in this project. Historical topic distributions will be treated as analytical estimates unless an official source explicitly provides them.
+- Appendix I provides the syllabus structure and question allocations for both papers. The bulletin also directs candidates to the NCERT syllabus and textbooks for detailed classes I-VIII syllabus content.
+- Appendix II provides candidate conduct, Test Booklet and OMR workflow, including reporting, sealed booklet handling, booklet-code checks, ball-point-only marking, one-response-circle rule, no answer changes, attendance signatures and OMR handover.
+- The 07 September 2026 public notice currently on the official site provides a correction window from 07 September to 10 September 2026. It does not change the examination structure or scoring rules.
 
 HISTORICAL OBSERVATION
 
@@ -72,6 +74,7 @@ PRODUCT DECISION
 - Examination rules will be versioned by cycle and bulletin.
 - The question corpus will distinguish official previous-year questions from derived, original and generated material.
 - Official topic weightage will never be inferred and labelled as CBSE policy.
+- Exact current-cycle question numbering will not be inferred from historical papers or secondary sources.
 
 ASSUMPTION
 
@@ -79,14 +82,48 @@ ASSUMPTION
 
 UNVERIFIED
 
-- The repository does not yet contain verified official CTET binaries in the current Phase 1 milestone.
-- Detailed question numbering, passage/set structures, subject subtopic taxonomy and historical distributions are not yet research-complete.
+- Exact September 2026 question-number ranges per section are not published in the bulletin text inspected.
+- Exact current-cycle printed section sequencing, passage/question-set numbering and set-specific layout require authoritative question-paper evidence.
+- Verified official CTET paper and answer-key binaries are not present in the repository under the current Phase 1 milestone.
 
 ## Latest official sources inspected
 
 1. CTET September 2026 Information Bulletin page: https://ctet.nic.in/document/ctet-sept-2026-information-bulletin/
 2. Linked CTET September 2026 Information Bulletin PDF from the official page.
-3. CTET official archive showing current and historical question-paper families: https://ctet.nic.in/category/archive/
+3. CTET official homepage and Public Notices listing: https://ctet.nic.in/
+4. CTET Public Notice dated 07 September 2026, correction window.
+5. CTET official archive: https://ctet.nic.in/category/archive/
+
+## Phase 1 gate evaluation
+
+Milestone 1 remains IN PROGRESS.
+
+Acceptance evidence completed:
+
+- Current bulletin identified by cycle, title, source and research date.
+- Paper I and Paper II purpose and target classes verified.
+- Counts, marks, duration, MCQ format and marking rules verified.
+- Section/subject structures verified for both papers.
+- Language options, codes and Language I/II relationship verified.
+- Main question-paper language/medium rule verified.
+- Qualifying marks and certificate validity verified.
+- Examination schedule, reporting and conduct workflow researched.
+- OMR/response mechanics researched from the official bulletin.
+- Appendix syllabus content inventoried at the specification level.
+- Current September 2026 public notice set checked for superseding operational changes.
+- Historical versus current rules explicitly separated.
+- Unverified items explicitly recorded.
+
+Acceptance evidence still incomplete:
+
+- Exact current-cycle question-number ranges and printed section sequencing remain UNVERIFIED.
+- Current-cycle passage/question-set numbering and set-specific layout remain UNVERIFIED.
+
+Gate decision:
+
+- Phase 1 exit condition is NOT SATISFIED.
+- Phase 2 acquisition remains LOCKED.
+- No binary acquisition, SHA-256 hashing, ZIP validation, extraction, OCR, question segmentation, answer-key mapping, historical weightage analysis or mock generation is permitted.
 
 ## Locked activities until Phase 2 entry criteria are met
 
@@ -101,6 +138,6 @@ UNVERIFIED
 - Difficulty/repetition analysis
 - Mock generation
 
-## Next milestone target
+## Next permitted action
 
-Complete the September 2026 examination specification from official textual evidence, including examination workflow, language rules, scoring, question structure, section ordering/numbering, syllabus references and all current-cycle changes. Then establish the explicit research gate for Phase 2 binary acquisition.
+Continue Phase 1 research only. Resolve exact current-cycle question numbering and printed section sequencing from authoritative evidence if it becomes available without bypassing the acquisition gate. If such evidence requires official paper binaries, record the blocker and prepare the Phase 1 exit decision without acquiring them.
