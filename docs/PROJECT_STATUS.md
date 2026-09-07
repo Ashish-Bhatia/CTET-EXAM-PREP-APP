@@ -12,25 +12,14 @@
 
 ## Synchronization evidence
 
-Codespace synchronization was independently executed before repository modification:
-
-```text
-git fetch origin
-git switch develop
-git pull --ff-only origin develop
-git status --short --branch
-git rev-parse --abbrev-ref HEAD
-git rev-parse HEAD
-git rev-parse origin/develop
-git status --porcelain
-```
-
-Required state was observed:
+Codespace synchronization was independently executed before repository modification. The supplied terminal verification produced `CODESPACE_SYNC_OK`:
 
 - branch: develop
-- HEAD: b850c7fb3181c3e70b1f6520748cbbff7d69a0d0
-- origin/develop: b850c7fb3181c3e70b1f6520748cbbff7d69a0d0
-- working tree: clean at synchronization point
+- HEAD: 73858a6f424091a04bfd7e70d27a9f0f0c4ccbb3
+- origin/develop: 73858a6f424091a04bfd7e70d27a9f0f0c4ccbb3
+- working tree: clean
+
+GitHub remote verification independently confirms `develop` at the same SHA.
 
 ## Current applicable official cycle
 
@@ -60,6 +49,7 @@ OFFICIAL FACT
 - Appendix I provides the syllabus structure and question allocations for both papers. The bulletin also directs candidates to the NCERT syllabus and textbooks for detailed classes I-VIII syllabus content.
 - Appendix II provides candidate conduct, Test Booklet and OMR workflow, including reporting, sealed booklet handling, booklet-code checks, ball-point-only marking, one-response-circle rule, no answer changes, attendance signatures and OMR handover.
 - The 07 September 2026 public notice currently on the official site provides a correction window from 07 September to 10 September 2026. It does not change the examination structure or scoring rules.
+- The official CTET homepage currently exposes links for QUESTION PAPER and FINAL ANSWER KEY as general site functions, but the current September 2026 question-paper links required to establish exact printed numbering are not published in the textual bulletin evidence inspected.
 
 HISTORICAL OBSERVATION
 
@@ -111,6 +101,7 @@ Acceptance evidence completed:
 - OMR/response mechanics researched from the official bulletin.
 - Appendix syllabus content inventoried at the specification level.
 - Current September 2026 public notice set checked for superseding operational changes.
+- Official homepage inventory checked for current question-paper and final-answer-key navigation.
 - Historical versus current rules explicitly separated.
 - Unverified items explicitly recorded.
 
@@ -141,3 +132,14 @@ Gate decision:
 ## Next permitted action
 
 Continue Phase 1 research only. Resolve exact current-cycle question numbering and printed section sequencing from authoritative evidence if it becomes available without bypassing the acquisition gate. If such evidence requires official paper binaries, record the blocker and prepare the Phase 1 exit decision without acquiring them.
+
+## Latest Phase 1 research verification
+
+Date: 08 September 2026
+
+- Official CTET homepage was rechecked.
+- The homepage currently lists the September 2026 correction-window notice and links to the September 2026 Information Bulletin.
+- The homepage exposes general QUESTION PAPER and FINAL ANSWER KEY navigation, but no textual current-cycle evidence was found there establishing exact September 2026 section question-number ranges or printed sequencing.
+- Searches restricted to ctet.nic.in for September 2026 question-number and question-paper terms produced no authoritative textual evidence establishing those ranges.
+- Decision: the numbering/sequence limitation remains UNVERIFIED. No inference from historical papers, secondary sources, metadata or general navigation is permitted.
+- Formal Phase 1 exit evaluation: NOT SATISFIED. Phase 2 remains LOCKED.
