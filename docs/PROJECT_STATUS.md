@@ -12,12 +12,14 @@
 
 ## Synchronization evidence
 
-Current-HEAD Codespace synchronization is NOT VERIFIED in this task.
+Current-HEAD Codespace synchronization verified on 08 September 2026.
 
-- Current GitHub `develop` HEAD: 52d6bc5377051d0578bdb460ad7c294672975595
-- Historical synchronization evidence exists for 73858a6f424091a04bfd7e70d27a9f0f0c4ccbb3 only.
-- The historical `CODESPACE_SYNC_OK` record is not evidence of synchronization to the current HEAD.
-- Do not claim `CODESPACE_SYNC_OK` for the current HEAD unless a real Codespace synchronization command is executed and its output is independently recorded.
+- Branch: develop
+- Current GitHub `develop` HEAD: ae74fcb2752cd890038226179cf8fb743aea2a5a
+- Codespace HEAD: ae74fcb2752cd890038226179cf8fb743aea2a5a
+- origin/develop: ae74fcb2752cd890038226179cf8fb743aea2a5a
+- Working tree: clean
+- Independent terminal verification produced `CODESPACE_SYNC_OK`.
 
 ## Current applicable official cycle
 
@@ -75,7 +77,7 @@ UNVERIFIED
 - Exact September 2026 question-number ranges per section are not published in the bulletin text inspected.
 - Exact current-cycle printed section boundaries, passage numbering, question-set numbering, set-specific visual layout and pagination/layout details require authoritative question-paper evidence.
 - Verified official CTET paper and answer-key binaries are not present in the repository under the current Phase 1 milestone.
-- These paper-presentation unknowns are NON-BLOCKING for Phase 1 and are deferred until official current-cycle question-paper evidence is published and the applicable acquisition gate is approved.
+- These paper-presentation unknowns are NON-BLOCKING for Phase 1 and are deferred until authoritative September 2026 question-paper evidence is published and the applicable acquisition gate is approved.
 
 ## Latest official sources inspected
 
@@ -88,7 +90,7 @@ UNVERIFIED
 
 ## Phase 1 gate evaluation
 
-Milestone 1 remains IN PROGRESS pending final repository gate approval and any remaining required specification evidence, not because of current-cycle printed numbering.
+Milestone 1 examination-specification evidence is complete for the required category A scope, subject to formal repository approval of Phase 1 exit and explicit opening of Phase 2.
 
 Acceptance evidence completed or established:
 
@@ -104,7 +106,7 @@ Acceptance evidence completed or established:
 - Current September 2026 public notice set checked for superseding operational changes.
 - Current official documents inventory checked for current-cycle public notices and operational documents.
 - Historical versus current rules explicitly separated.
-- Unverified items explicitly recorded.
+- Unverified items explicitly recorded and classified.
 
 Deferred, UNVERIFIED and NON-BLOCKING paper-presentation evidence:
 
@@ -120,8 +122,10 @@ These attributes remain UNVERIFIED until authoritative September 2026 question-p
 Gate decision:
 
 - The previous gate rationale that treated exact current-cycle numbering as required acceptance evidence is superseded by the governance correction recorded in the decision log.
-- Phase 2 acquisition remains LOCKED because the separate Phase 2 approval gate has not been opened in this task.
-- No binary acquisition, SHA-256 hashing, ZIP validation, extraction, OCR, question segmentation, answer-key mapping, historical weightage analysis, difficulty/repetition analysis or mock generation is permitted in this task.
+- The Phase 1 examination-specification evidence set is complete against category A.
+- Phase 1 exit is pending explicit repository approval and corresponding record update.
+- Phase 2 acquisition remains LOCKED pending that explicit approval.
+- No binary acquisition, SHA-256 hashing, ZIP validation, extraction, OCR, question segmentation, answer-key mapping, historical weightage analysis, difficulty/repetition analysis or mock generation is permitted before Phase 2 is explicitly opened.
 
 ## Locked activities until Phase 2 entry criteria are met
 
@@ -138,16 +142,16 @@ Gate decision:
 
 ## Next permitted action
 
-Complete any remaining Phase 1 specification documentation and formal gate evidence. Continue monitoring official CTET current-cycle notices for changes to examination operations or the bulletin. Do not repeatedly search for unavailable printed numbering evidence. When authoritative September 2026 question-paper evidence is published, classify exact numbering and paper-presentation attributes as downstream evidence for the appropriate later phase, subject to the acquisition gate.
+Record the formal Phase 1 exit decision and obtain explicit approval to open Phase 2. Until that approval is recorded, continue only controlled Phase 1 documentation or current-cycle notice monitoring. Do not acquire or process September 2026 binaries.
 
 ## Latest Phase 1 research verification
 
 Date: 08 September 2026
 
+- Current GitHub `develop` HEAD and the independent Codespace HEAD are both ae74fcb2752cd890038226179cf8fb743aea2a5a.
+- The working tree is clean and the terminal verification produced `CODESPACE_SYNC_OK`.
 - Official CTET homepage, Public Notices page and Documents index were rechecked.
 - The official current-cycle inventory lists the September 2026 bulletin, the September 2026 correction-window notice, the September 2026 public notice and a reopening-of-online-applications notice.
 - The current public notice inventory reviewed does not identify a current-cycle amendment that changes the examination structure, scoring, language rules, syllabus or OMR mechanics already established from the bulletin.
-- The homepage exposes general QUESTION PAPER and FINAL ANSWER KEY navigation, but current September 2026 question-paper packages and answer keys were not found in the official document inventory reviewed.
-- Exact current-cycle printed question numbering and paper-presentation layout therefore remain UNVERIFIED.
-- Governance decision: these are downstream paper-evidence attributes and are NON-BLOCKING for Phase 1. They must not be used as the basis for a Phase 1 incomplete decision.
+- Exact current-cycle printed question numbering and paper-presentation layout remain UNVERIFIED, but they are downstream paper-evidence attributes and NON-BLOCKING for Phase 1.
 - No September 2026 binary was acquired or processed in this task.
