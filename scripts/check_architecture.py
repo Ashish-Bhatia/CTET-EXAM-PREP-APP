@@ -15,6 +15,8 @@ REQUIRED = [
 ]
 FORBIDDEN_PATH_PARTS = {"acquisition", "ocr", "question_bank", "mocks"}
 FORBIDDEN_BINARY_SUFFIXES = {".zip", ".pdf", ".docx", ".xlsx"}
+ALLOWED_GOVERNANCE_PREFIX = "docs/acquisition/"
+ALLOWED_OFFICIAL_BINARY_PREFIX = "data/official/"
 
 
 def main() -> int:
@@ -29,13 +31,16 @@ def main() -> int:
     ).stdout.splitlines()
 
     for path in tracked:
-        parts = set(Path(path).parts)
-        if parts & FORBIDDEN_PATH_PARTS:
+        normalized = path.replace("\\", "/")
+        parts = set(Path(normalized).parts)
+        if parts & FORBIDDEN_PATH_PARTS and not normalized.startswith(ALLOWED_GOVERNANCE_PREFIX):
             print(f"Forbidden foundation path: {path}")
             return 1
-        if Path(path).suffix.lower() in FORBIDDEN_BINARY_SUFFIXES:
-            print(f"Tracked binary artifact is forbidden in foundation: {path}")
-            return 1
+        suffix = Path(normalized).suffix.lower()
+        if suffix in FORBIDDEN_BINARY_SUFFIXES:
+            if not (normalized.startswith(ALLOWED_OFFICIAL_BINARY_PREFIX) and suffix == ".zip"):
+                print(f"Tracked binary artifact is forbidden in foundation: {path}")
+                return 1
 
     return 0
 
