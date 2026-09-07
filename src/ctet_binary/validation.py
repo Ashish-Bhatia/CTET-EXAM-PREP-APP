@@ -6,6 +6,7 @@ import re
 import zipfile
 from pathlib import Path
 from typing import Any
+from urllib.parse import urlparse
 
 from .lifecycle import LifecycleState
 from .models import BinaryEvidence, PackageIdentity
@@ -33,29 +34,49 @@ def _safe_member_path(name: str) -> str:
 def _inventory(path: Path) -> list[dict[str, Any]]:
     inventory: list[dict[str, Any]] = []
     logical_paths: set[str] = set()
-    with zipfile.ZipFile(path, "r") as archive:
-        bad = archive.testzip()
-        if bad is not None:
-            raise BinaryValidationError(f"CRC validation failed: {bad}")
-        for info in archive.infolist():
-            logical = _safe_member_path(info.filename)
-            key = logical.rstrip("/")
-            if key in logical_paths:
-                raise BinaryValidationError(f"duplicate archive member path: {info.filename}")
-            logical_paths.add(key)
-            is_dir = info.is_dir() or info.filename.endswith(("/", "\\"))
-            data = archive.read(info.filename)
-            inventory.append(
-                {
-                    "path": logical,
-                    "type": "directory" if is_dir else "file",
-                    "size": info.file_size,
-                    "compressed_size": info.compress_size,
-                    "crc": f"{info.CRC:08x}",
-                    "read_bytes": len(data),
-                }
-            )
+    try:
+        with zipfile.ZipFile(path, "r") as archive:
+            bad = archive.testzip()
+            if bad is not None:
+                raise BinaryValidationError(f"CRC validation failed: {bad}")
+            for info in archive.infolist():
+                logical = _safe_member_path(info.filename)
+                key = logical.rstrip("/")
+                if not key:
+                    raise BinaryValidationError(f"empty archive member path: {info.filename}")
+                if key in logical_paths:
+                    raise BinaryValidationError(
+                        f"duplicate archive member path: {info.filename}"
+                    )
+                logical_paths.add(key)
+                is_dir = info.is_dir() or info.filename.endswith(("/", "\\"))
+                data = archive.read(info.filename)
+                inventory.append(
+                    {
+                        "path": logical,
+                        "type": "directory" if is_dir else "file",
+                        "size": info.file_size,
+                        "compressed_size": info.compress_size,
+                        "crc": f"{info.CRC:08x}",
+                        "read_bytes": len(data),
+                    }
+                )
+    except zipfile.BadZipFile as exc:
+        raise BinaryValidationError(f"invalid ZIP archive: {exc}") from exc
+    except OSError as exc:
+        raise BinaryValidationError(f"unable to read ZIP archive: {exc}") from exc
     return inventory
+
+
+def _validate_provenance(package: PackageIdentity) -> None:
+    page = urlparse(package.official_page_url)
+    drive = urlparse(package.official_drive_url)
+    if page.scheme != "https" or page.netloc != "ctet.nic.in":
+        raise BinaryValidationError("official page URL is not the CTET official HTTPS host")
+    if drive.scheme != "https" or drive.netloc != "drive.google.com":
+        raise BinaryValidationError("official Drive URL is not the Google Drive HTTPS host")
+    if not DRIVE_ID_RE.fullmatch(package.drive_file_id):
+        raise BinaryValidationError("invalid Drive file ID")
 
 
 def validate_binary(path: str | Path, package: PackageIdentity) -> BinaryEvidence:
@@ -77,8 +98,7 @@ def validate_binary(path: str | Path, package: PackageIdentity) -> BinaryEvidenc
         raise BinaryValidationError("file does not have a ZIP signature")
     if package.expected_package_type.upper() != "ZIP":
         raise BinaryValidationError("unsupported expected package type")
-    if not DRIVE_ID_RE.fullmatch(package.drive_file_id):
-        raise BinaryValidationError("invalid Drive file ID")
+    _validate_provenance(package)
 
     inventory = _inventory(file_path)
     evidence = BinaryEvidence.acquired(package, str(file_path), size)
