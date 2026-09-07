@@ -161,10 +161,23 @@ This ledger records verified examination research. Every material claim must car
 - Evaluation: Category B paper-presentation evidence remains UNVERIFIED, but is explicitly NON-BLOCKING and DEFERRED under D006.
 - Decision: Milestone 1 is READY FOR FORMAL PHASE 1 EXIT APPROVAL. Do not open Phase 2 acquisition until explicit approval is recorded.
 
+## Entry 016, formal Phase 1 exit approval and Phase 2 authorization
+
+- Date researched: 08 September 2026
+- Classification: PRODUCT DECISION
+- Decision: APPROVED: Phase 1, Official Examination Research, Milestone 1 Examination Specification, is formally accepted for exit. Phase 2, Official Binary Acquisition and Verification, is approved to open.
+- Result: Phase 1 is COMPLETE / EXIT APPROVED. Phase 2 is OPEN / APPROVED TO ENTER.
+- Basis: Required category A evidence is complete. Category B paper-presentation evidence remains UNVERIFIED, NON-BLOCKING and DEFERRED under D006.
+- Control: No Phase 3 extraction or downstream corpus/mock activities are authorized until the Phase 2 binary verification gate is separately satisfied.
+- Constraint: Official binaries must enter the required lifecycle: OFFICIAL_PAGE_ONLY -> BINARY_ACQUIRED -> HASHED -> ZIP_VALIDATED -> OFFICIAL_BINARY_VERIFIED -> EXTRACTED -> INVENTORIED -> READY_FOR_ANALYSIS.
+
 ## Open research items
 
-- Record the formal Phase 1 exit decision and explicit approval before opening Phase 2.
-- Preserve the official appendix taxonomy and, when permitted, map detailed NCERT syllabus content without presenting derived taxonomy as CBSE-published taxonomy.
+- Enumerate authoritative current-cycle binary sources exposed by the official CTET site as the first Phase 2 action.
+- Acquire only required official binaries after recording source and provenance.
+- Calculate SHA-256 from actual acquired bytes and validate package integrity before marking verified.
+- Record package identity, expected contents and evidence in the acquisition manifest.
+- Preserve the official appendix taxonomy and, when permitted by downstream gates, map detailed NCERT syllabus content without presenting derived taxonomy as CBSE-published taxonomy.
 - Maintain monitoring for current-cycle CTET notices that alter examination operations or supersede bulletin instructions.
 - When authoritative September 2026 question-paper evidence is published, retain exact printed numbering and paper-presentation attributes as downstream evidence for the appropriate later phase.
-- Do not acquire or process September 2026 binaries before Phase 2 approval is recorded.
+- Do not advance to extraction or later phases until Phase 2 verification requirements are satisfied.

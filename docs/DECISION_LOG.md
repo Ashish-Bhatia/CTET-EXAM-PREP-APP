@@ -49,3 +49,12 @@
 - Decision: Milestone 1 examination-specification evidence is READY FOR FORMAL PHASE 1 EXIT APPROVAL. The required category A specification evidence is complete; category B printed paper-presentation evidence remains UNVERIFIED, NON-BLOCKING and DEFERRED.
 - Rationale: The current September 2026 bulletin and current official notice inventory establish the required examination specification, while the governance correction explicitly removes current-cycle printed numbering and layout from the Phase 1 acceptance gate.
 - Constraint: This readiness decision does not open Phase 2. Explicit approval must be recorded before official binaries are acquired or processed.
+
+## D008, formal Phase 1 exit approval and Phase 2 entry authorization
+
+- Date: 08 September 2026
+- Classification: PRODUCT DECISION
+- Decision: APPROVED: Phase 1, Official Examination Research, Milestone 1 Examination Specification, is formally accepted for exit. Phase 2, Official Binary Acquisition and Verification, is approved to open.
+- Approval basis: The required category A Phase 1 examination-specification evidence is complete. Category B printed paper-presentation attributes remain UNVERIFIED, NON-BLOCKING and DEFERRED under D006.
+- Consequence: Phase 1 is COMPLETE / EXIT APPROVED. The Phase 2 acquisition gate is OPEN / APPROVED TO ENTER. Official binary acquisition is permitted only within the Phase 2 control sequence and must follow the required binary lifecycle and verification checks.
+- Constraint: No Phase 3 extraction or downstream corpus/mock activities are authorized until the Phase 2 binary verification gate is separately satisfied.

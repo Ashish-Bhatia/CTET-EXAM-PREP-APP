@@ -4,7 +4,7 @@
 
 ### Milestone 1, Examination Specification
 
-Status: IN PROGRESS
+Status: COMPLETE / EXIT APPROVED
 
 Entry condition:
 
@@ -47,53 +47,75 @@ Exit condition:
 - No material rule is based solely on secondary sources where official evidence exists.
 - Phase 2 acquisition gate is explicitly approved in the repository records.
 
+Phase 1 exit decision:
+
+- APPROVED: Phase 1, Official Examination Research, Milestone 1 Examination Specification, is formally accepted for exit.
+- Approval date: 08 September 2026.
+- Phase 1 status: COMPLETE / EXIT APPROVED.
+- Phase 2 status: OPEN / APPROVED TO ENTER.
+
 ### Phase 2 gate, Official Binary Acquisition and Verification
 
-LOCKED until Phase 1 exit condition is satisfied and explicit approval is recorded.
+Status: OPEN / APPROVED TO ENTER
 
-Permitted only after explicit approval:
+Entry condition:
+
+- Phase 1, Milestone 1, is recorded as COMPLETE / EXIT APPROVED.
+- Explicit repository approval to enter Phase 2 is recorded.
+- Binary work remains controlled by the required acquisition and verification lifecycle.
+
+Permitted after Phase 2 entry approval:
 
 - Binary acquisition of official CTET packages.
 - SHA-256 calculation from actual bytes.
 - ZIP/package validation.
 - Provenance and identity verification.
-- Extraction and inventory.
+- Extraction and inventory only after OFFICIAL_BINARY_VERIFIED state is reached.
 
 Required binary state:
 
 OFFICIAL_PAGE_ONLY -> BINARY_ACQUIRED -> HASHED -> ZIP_VALIDATED -> OFFICIAL_BINARY_VERIFIED -> EXTRACTED -> INVENTORIED -> READY_FOR_ANALYSIS
 
-## Phase 3, Extraction, Inventory and Segmentation
+Phase 2 exit condition:
+
+- Each acquired official binary has actual bytes in the controlled environment.
+- SHA-256 is calculated from the acquired bytes.
+- ZIP/package integrity is validated where applicable.
+- Provenance and package identity are verified against the authoritative source.
+- Verification evidence is recorded in the repository acquisition manifest.
+- No binary proceeds to extraction until OFFICIAL_BINARY_VERIFIED.
+
+### Phase 3, Extraction, Inventory and Segmentation
 
 LOCKED until Phase 2 binaries are verified.
 
-## Phase 4, Answer-Key Mapping and Structural Validation
+### Phase 4, Answer-Key Mapping and Structural Validation
 
 LOCKED until Phase 3 outputs exist and are validated.
 
-## Phase 5, Historical Corpus and Statistical Analysis
+### Phase 5, Historical Corpus and Statistical Analysis
 
 LOCKED until official paper and answer-key corpus is validated.
 
 Historical topic distributions must be classified as ANALYTICAL ESTIMATE unless officially published by CBSE.
 
-## Phase 6, Question-Bank and Blueprint Engine
+### Phase 6, Question-Bank and Blueprint Engine
 
 LOCKED until Phase 5 evidence supports its constraints.
 
-## Phase 7, UX/UI and Examination Simulator
+### Phase 7, UX/UI and Examination Simulator
 
 LOCKED from implementation until the examination specification and required workflow rules are accepted.
 
-## Phase 8, Application Implementation
+### Phase 8, Application Implementation
 
 LOCKED until upstream specification, corpus and blueprint gates are passed.
 
-## Phase 9, Automated Testing and Validation
+### Phase 9, Automated Testing and Validation
 
 LOCKED until implementation exists.
 
-## Phase 10, Production Readiness
+### Phase 10, Production Readiness
 
 LOCKED until required application and validation evidence exists.
 

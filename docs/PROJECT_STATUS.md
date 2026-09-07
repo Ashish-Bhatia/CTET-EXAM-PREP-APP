@@ -2,24 +2,35 @@
 
 ## Current state
 
-- Phase: Phase 1, Official Examination Research
-- Milestone: Milestone 1, Examination Specification
-- Status: IN PROGRESS
-- Research gate: OPEN for official examination specification research only
-- Binary acquisition: LOCKED
+- Phase: Phase 2, Official Binary Acquisition and Verification
+- Milestone: Phase 2 entry gate
+- Status: OPEN / APPROVED TO ENTER
+- Phase 1 milestone: COMPLETE / EXIT APPROVED
+- Research gate: CLOSED for further Milestone 1 acceptance work; Phase 2 acquisition and verification is now permitted
+- Binary acquisition: OPEN / APPROVED TO ENTER
 - Mock generation: LOCKED
 - Application functionality: LOCKED
 
 ## Synchronization evidence
 
-Current-HEAD Codespace synchronization verified on 08 September 2026.
+Current repository state verified before Phase 1 approval update on 08 September 2026.
 
 - Branch: develop
-- Current GitHub `develop` HEAD: ae74fcb2752cd890038226179cf8fb743aea2a5a
-- Codespace HEAD: ae74fcb2752cd890038226179cf8fb743aea2a5a
-- origin/develop: ae74fcb2752cd890038226179cf8fb743aea2a5a
+- Verified GitHub develop HEAD before approval update: 004769a8d5473201cd863ed3b3f3377b0ac92b5c
+- Independent Codespace HEAD before approval update: 004769a8d5473201cd863ed3b3f3377b0ac92b5c
+- origin/develop before approval update: 004769a8d5473201cd863ed3b3f3377b0ac92b5c
 - Working tree: clean
-- Independent terminal verification produced `CODESPACE_SYNC_OK`.
+- `git diff --check`: passed
+- `pytest -q`: 3 passed
+
+## Formal Phase 1 exit approval
+
+Date: 08 September 2026
+
+- Approval: APPROVED: Phase 1, Official Examination Research, Milestone 1 Examination Specification, is formally accepted for exit. Phase 2, Official Binary Acquisition and Verification, is approved to open.
+- Phase 1: COMPLETE / EXIT APPROVED.
+- Phase 2: OPEN / APPROVED TO ENTER.
+- Approval basis: Required category A examination-specification evidence is complete. Category B printed paper-presentation evidence remains UNVERIFIED, NON-BLOCKING and DEFERRED.
 
 ## Current applicable official cycle
 
@@ -67,6 +78,7 @@ PRODUCT DECISION
 - Official topic weightage will never be inferred and labelled as CBSE policy.
 - Exact current-cycle question numbering and printed paper-presentation layout will not be inferred from historical papers, secondary sources, filenames, metadata or screenshots.
 - Exact current-cycle printed numbering and presentation evidence are downstream paper-evidence attributes, not required Phase 1 examination-specification attributes.
+- Phase 2 acquisition must preserve the binary lifecycle: OFFICIAL_PAGE_ONLY -> BINARY_ACQUIRED -> HASHED -> ZIP_VALIDATED -> OFFICIAL_BINARY_VERIFIED -> EXTRACTED -> INVENTORIED -> READY_FOR_ANALYSIS.
 
 ASSUMPTION
 
@@ -76,8 +88,8 @@ UNVERIFIED
 
 - Exact September 2026 question-number ranges per section are not published in the bulletin text inspected.
 - Exact current-cycle printed section boundaries, passage numbering, question-set numbering, set-specific visual layout and pagination/layout details require authoritative question-paper evidence.
-- Verified official CTET paper and answer-key binaries are not present in the repository under the current Phase 1 milestone.
-- These paper-presentation unknowns are NON-BLOCKING for Phase 1 and are deferred until authoritative September 2026 question-paper evidence is published and the applicable acquisition gate is approved.
+- Verified official CTET paper and answer-key binaries are not yet verified under the Phase 2 acquisition lifecycle.
+- These paper-presentation unknowns are NON-BLOCKING for Phase 1 and remain deferred until authoritative September 2026 question-paper evidence is published and the applicable acquisition verification requirements are satisfied.
 
 ## Latest official sources inspected
 
@@ -88,70 +100,37 @@ UNVERIFIED
 5. CTET official documents index: https://ctet.nic.in/documents/
 6. CTET official archive: https://ctet.nic.in/category/archive/
 
-## Phase 1 gate evaluation
+## Phase 2 entry gate
 
-Milestone 1 examination-specification evidence is complete for the required category A scope, subject to formal repository approval of Phase 1 exit and explicit opening of Phase 2.
+Status: OPEN / APPROVED TO ENTER
 
-Acceptance evidence completed or established:
+Verified entry evidence:
 
-- Current bulletin identified by cycle, title, source and research date.
-- Paper I and Paper II purpose and target classes verified.
-- Counts, marks, duration, MCQ format and marking rules verified.
-- Section/subject structures verified for both papers.
-- Language options, codes, Language I/II relationship and main-paper language rule verified.
-- Qualifying marks and certificate validity verified.
-- Examination schedule, reporting and conduct workflow researched.
-- OMR/response mechanics researched from the official bulletin.
-- Appendix syllabus content inventoried at the specification level.
-- Current September 2026 public notice set checked for superseding operational changes.
-- Current official documents inventory checked for current-cycle public notices and operational documents.
-- Historical versus current rules explicitly separated.
-- Unverified items explicitly recorded and classified.
+- Formal Phase 1 exit approval is recorded in `docs/DECISION_LOG.md`.
+- `docs/PHASE_GATES.md` records Phase 1 as COMPLETE / EXIT APPROVED and Phase 2 as OPEN / APPROVED TO ENTER.
+- This project status record records the same state.
+- `docs/RESEARCH_LEDGER.md` records the approval decision and transition.
+- No CTET binary was acquired or processed before this Phase 2 entry approval.
 
-Deferred, UNVERIFIED and NON-BLOCKING paper-presentation evidence:
+Phase 2 controls:
 
-- Exact current-cycle printed question-number ranges.
-- Printed section boundaries and sequencing.
-- Passage numbering.
-- Question-set numbering.
-- Set-specific visual layout.
-- Pagination/layout details.
+- Acquire official binaries only from authoritative CTET-linked sources.
+- Actual binary bytes must enter the controlled environment before marking BINARY_ACQUIRED.
+- Compute SHA-256 from the actual acquired bytes.
+- Validate ZIP/package integrity where applicable.
+- Verify provenance, package identity and expected contents before OFFICIAL_BINARY_VERIFIED.
+- Do not extract, OCR, segment, map answers, calculate historical weightage or generate mocks until the relevant binary gate and downstream phase gates are satisfied.
 
-These attributes remain UNVERIFIED until authoritative September 2026 question-paper evidence is published. They are not required Milestone 1 examination-specification facts and must not be used as a reason to declare Milestone 1 incomplete.
+## Locked activities
 
-Gate decision:
-
-- The previous gate rationale that treated exact current-cycle numbering as required acceptance evidence is superseded by the governance correction recorded in the decision log.
-- The Phase 1 examination-specification evidence set is complete against category A.
-- Phase 1 exit is pending explicit repository approval and corresponding record update.
-- Phase 2 acquisition remains LOCKED pending that explicit approval.
-- No binary acquisition, SHA-256 hashing, ZIP validation, extraction, OCR, question segmentation, answer-key mapping, historical weightage analysis, difficulty/repetition analysis or mock generation is permitted before Phase 2 is explicitly opened.
-
-## Locked activities until Phase 2 entry criteria are met
-
-- Official binary acquisition
-- SHA-256 hashing of official binaries
-- ZIP validation and extraction
-- OCR/extraction
+- OCR/extraction for corpus construction
 - Question segmentation
 - Answer-key mapping
-- Historical corpus construction
-- Weightage calculation
+- Historical topic distributions
 - Difficulty/repetition analysis
 - Mock generation
+- Production application implementation
 
-## Next permitted action
+## Exact next permitted action
 
-Record the formal Phase 1 exit decision and obtain explicit approval to open Phase 2. Until that approval is recorded, continue only controlled Phase 1 documentation or current-cycle notice monitoring. Do not acquire or process September 2026 binaries.
-
-## Latest Phase 1 research verification
-
-Date: 08 September 2026
-
-- Current GitHub `develop` HEAD and the independent Codespace HEAD are both ae74fcb2752cd890038226179cf8fb743aea2a5a.
-- The working tree is clean and the terminal verification produced `CODESPACE_SYNC_OK`.
-- Official CTET homepage, Public Notices page and Documents index were rechecked.
-- The official current-cycle inventory lists the September 2026 bulletin, the September 2026 correction-window notice, the September 2026 public notice and a reopening-of-online-applications notice.
-- The current public notice inventory reviewed does not identify a current-cycle amendment that changes the examination structure, scoring, language rules, syllabus or OMR mechanics already established from the bulletin.
-- Exact current-cycle printed question numbering and paper-presentation layout remain UNVERIFIED, but they are downstream paper-evidence attributes and NON-BLOCKING for Phase 1.
-- No September 2026 binary was acquired or processed in this task.
+Begin Phase 2 Official Binary Acquisition and Verification. First enumerate the authoritative official CTET September 2026 binary sources currently exposed by the official site, then acquire only the required binaries into the controlled environment. For each binary, record actual-byte acquisition, SHA-256, package validation, provenance, identity and verification state before any extraction. Do not advance to Phase 3 until OFFICIAL_BINARY_VERIFIED evidence is recorded.
