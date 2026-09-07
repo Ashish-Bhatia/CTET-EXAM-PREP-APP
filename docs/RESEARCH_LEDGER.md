@@ -110,31 +110,52 @@ This ledger records verified examination research. Every material claim must car
 
 - Date researched: 08 September 2026
 - Classification: OFFICIAL FACT
-- Source: CTET official homepage and Public Notice dated 07 September 2026
-- Finding: The CTET official homepage currently lists a CTET September 2026 correction window as the latest news/public notice, with last date 10 September 2026.
-- Finding: The 07 September 2026 notice states an additional application opportunity ran from 25 August 2026 to 01 September 2026 and the correction facility is available from 07 September 2026 to 10 September 2026. No correction is permitted after 10 September 2026.
-- Finding: This notice changes application operational timing only. It does not supersede the September 2026 bulletin's examination structure, scoring, language, syllabus or OMR rules.
-- Evidence: Official CTET homepage lines 55-73; notice PDF P0 lines 1-14.
+- Source: CTET official homepage, Public Notices page and Documents index
+- Finding: The official current-cycle inventory lists the September 2026 correction-window notice, September 2026 Information Bulletin, September 2026 public notice and a reopening-of-online-applications notice.
+- Finding: The 07 September 2026 correction-window notice provides a correction facility from 07 September 2026 to 10 September 2026.
+- Finding: The current-cycle public notice inventory reviewed does not identify a notice that changes the September 2026 examination structure, scoring, language, syllabus or OMR mechanics already established from the bulletin.
+- Finding: The official homepage continues to expose general QUESTION PAPER and FINAL ANSWER KEY navigation, but current September 2026 question-paper packages and answer keys were not found in the official document inventory reviewed.
+- Evidence: Official CTET homepage and Public Notices/Documents pages reviewed on 08 September 2026.
 
 ## Entry 011, question numbering and section sequencing
 
 - Date researched: 08 September 2026
-- Classification: UNVERIFIED
-- Finding: The September 2026 bulletin verifies section/component order in its structure tables and appendix headings, but it does not publish exact question-number ranges such as Q1-Q30 for each section.
-- Finding: Exact paper question numbering, printed section sequencing, passage/question-set numbering and set-specific layout require inspection of official question-paper evidence. The current project is prohibited from acquiring or processing those binaries until Phase 1 is accepted and Phase 2 is explicitly opened.
-- Decision: Do not infer exact question-number ranges from historical papers or secondary sources. Keep this item UNVERIFIED until authoritative current-cycle paper evidence is available under the approved acquisition gate.
+- Classification: UNVERIFIED / NON-BLOCKING / DEFERRED
+- Finding: The September 2026 bulletin verifies section/component structure and question allocations, but it does not publish exact printed question-number ranges such as Q1-Q30 for each section.
+- Finding: Exact printed question-number ranges, printed section boundaries, passage numbering, question-set numbering, set-specific visual layout and pagination/layout details require authoritative current-cycle question-paper evidence.
+- Decision: Do not infer these attributes from historical papers, secondary sources, filenames, metadata or screenshots.
+- Governance status: These are downstream paper-presentation evidence attributes, not required Phase 1 examination-specification attributes. They remain UNVERIFIED and NON-BLOCKING for Phase 1 and are deferred until authoritative September 2026 question-paper evidence is published.
 
 ## Entry 012, Phase 1 gate evaluation
 
 - Date researched: 08 September 2026
 - Classification: PRODUCT DECISION
-- Evaluation: Most Milestone 1 acceptance areas are now evidenced from the September 2026 official bulletin and current official notice set, including cycle identification, paper structure, counts, marks, duration, MCQ format, marking, language options, qualification, schedule, examination conduct, OMR mechanics and syllabus inventory.
-- Evaluation: Milestone 1 is NOT COMPLETE because exact question numbering/printed section sequencing remains UNVERIFIED and the project has not yet established current-cycle question-paper evidence under the permitted binary gate.
-- Evaluation: Phase 2 acquisition remains LOCKED. No approval to acquire binaries, extract files, segment questions, map answer keys, calculate historical distributions or generate mocks is granted by this entry.
+- Evaluation: Milestone 1 examination-specification acceptance is evaluated against the required specification category, not against unavailable printed paper-presentation attributes.
+- Evaluation: Required specification areas are evidenced from the September 2026 official bulletin and current official notice set, including cycle identification, paper purpose, counts, marks, duration, MCQ format, marking, section/subject structure, language rules, qualification, schedule, conduct, OMR mechanics, syllabus inventory, historical/current separation and explicit unknown classification.
+- Evaluation: Exact current-cycle printed numbering and paper-presentation layout remain UNVERIFIED but are NON-BLOCKING and do not constitute incomplete Milestone 1 evidence.
+- Evaluation: Phase 2 acquisition remains LOCKED because this task does not grant the separate Phase 2 approval gate.
+
+## Entry 013, current-cycle operational notice recheck
+
+- Date researched: 08 September 2026
+- Classification: OFFICIAL FACT
+- Source: CTET official Public Notices and Documents pages
+- Finding: Current September 2026 public documents were rechecked. The visible current-cycle notices include the correction-window notice, September 2026 bulletin, September 2026 public notice and reopening-of-online-applications notice.
+- Finding: No newly identified authoritative current-cycle document in this recheck changes the examination structure, scoring, language rules, syllabus or OMR mechanics already established by the bulletin.
+- Decision: Continue Phase 1 documentation and gate control without acquiring current-cycle binaries.
+
+## Entry 014, governance correction for paper-presentation evidence
+
+- Date researched: 08 September 2026
+- Classification: PRODUCT DECISION
+- Decision: Exact current-cycle printed question numbering and paper presentation layout are downstream paper-evidence attributes, not required Phase 1 examination-specification attributes. They remain UNVERIFIED and NON-BLOCKING until authoritative September 2026 question-paper evidence is published.
+- Consequence: The absence of current-cycle printed numbering evidence must not be used to declare Milestone 1 incomplete or to repeatedly search for unavailable numbering evidence.
+- Constraint: This decision does not authorize binary acquisition, extraction, OCR, segmentation, answer-key mapping, weightage analysis, difficulty analysis, repetition analysis or mock generation.
 
 ## Open research items
 
-- Resolve exact question numbering and printed section sequencing from authoritative current-cycle question-paper evidence after Phase 1 acceptance and Phase 2 gate opening.
+- Complete the formal Phase 1 gate record against the required examination-specification category.
 - Preserve the official appendix taxonomy and, when permitted, map detailed NCERT syllabus content without presenting derived taxonomy as CBSE-published taxonomy.
 - Maintain monitoring for current-cycle CTET notices that alter examination operations or supersede bulletin instructions.
-- Complete explicit Phase 1 exit evidence and gate approval before binary acquisition.
+- When authoritative September 2026 question-paper evidence is published, retain exact printed numbering and paper-presentation attributes as downstream evidence for the appropriate later phase.
+- Do not acquire or process September 2026 binaries in the current task.

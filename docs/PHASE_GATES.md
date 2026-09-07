@@ -9,9 +9,11 @@ Status: IN PROGRESS
 Entry condition:
 
 - Repository foundation exists and is validated.
-- Codespace is synchronized to the intended integration branch.
+- Codespace synchronization is tracked separately from examination-specification acceptance. A historical synchronization record does not constitute current-HEAD synchronization evidence.
 
 Required acceptance evidence:
+
+A. Required examination specification
 
 - Applicable current CTET/CBSE Information Bulletin identified by cycle, title, source and effective/research date.
 - Paper I and Paper II purpose and target classes verified.
@@ -25,17 +27,29 @@ Required acceptance evidence:
 - Official syllabus and appendix content inventoried at the specification level.
 - Current-cycle notices checked for changes or superseding instructions.
 - Historical versus current rules explicitly separated.
-- Unverified items explicitly recorded.
+- Unverified items explicitly recorded and classified.
+
+B. Deferred paper-presentation evidence, non-blocking for Phase 1
+
+- Exact printed question-number ranges.
+- Printed section boundaries and sequencing.
+- Passage numbering.
+- Question-set numbering.
+- Set-specific visual layout.
+- Pagination and other printed layout details.
+
+Items in category B remain UNVERIFIED until authoritative current-cycle question-paper evidence is published. They are downstream paper-presentation attributes and must not be used as a reason to declare Milestone 1 incomplete.
 
 Exit condition:
 
-- All required specification areas are documented with authoritative provenance.
+- All required specification areas in category A are documented with authoritative provenance.
+- Category B paper-presentation evidence is explicitly classified as UNVERIFIED where unavailable and is NON-BLOCKING for Phase 1.
 - No material rule is based solely on secondary sources where official evidence exists.
 - Phase 2 acquisition gate is explicitly approved in the repository records.
 
 ### Phase 2 gate, Official Binary Acquisition and Verification
 
-LOCKED until Phase 1 exit condition is satisfied.
+LOCKED until Phase 1 exit condition is satisfied and explicit approval is recorded.
 
 Permitted only after explicit approval:
 

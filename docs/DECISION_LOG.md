@@ -33,3 +33,11 @@
 - Classification: PRODUCT DECISION
 - Decision: Maintain project status, research ledger, decision log and phase gates as tracked repository documents.
 - Rationale: These documents provide auditable state, evidence and gate control across chat handoffs.
+
+## D006, current-cycle printed numbering is downstream and non-blocking
+
+- Date: 08 September 2026
+- Classification: PRODUCT DECISION
+- Decision: Exact current-cycle printed question numbering and paper presentation layout are downstream paper-evidence attributes, not required Phase 1 examination-specification attributes. They remain UNVERIFIED and NON-BLOCKING until authoritative September 2026 question-paper evidence is published.
+- Rationale: The September 2026 Information Bulletin establishes the examination specification but does not publish exact printed question-number ranges or set-specific paper presentation. The current official document inventory reviewed does not expose September 2026 question-paper evidence needed to verify those downstream attributes.
+- Consequence: Historical papers, secondary sources, filenames, metadata and screenshots must not be used to infer current-cycle printed numbering or layout. Their absence must not be used to declare Milestone 1 incomplete.
