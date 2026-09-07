@@ -34,7 +34,8 @@ This ledger records verified examination research. Every material claim must car
 - Finding: Language II must be a language other than Language I.
 - Finding: Two languages are selected from the published language list, with codes 01-27.
 - Finding: Main question paper is bilingual, Hindi/English.
-- Evidence: P8 lines 278-294; P9 lines 328-355.
+- Finding: The application instructions state candidates must attempt questions in the languages opted for and shown on the Admit Card; attempting in another language is stated to result in cancellation of candidature.
+- Evidence: P8 lines 278-294; P9 lines 328-355; P27-P28 lines 1139-1158.
 
 ## Entry 004, scoring and qualification
 
@@ -46,16 +47,17 @@ This ledger records verified examination research. Every material claim must car
 - Finding: The CTET qualifying certificate is stated to have lifetime validity for all categories. There is no restriction on number of attempts, and qualified candidates may reappear to improve their score.
 - Evidence: P8 lines 263-265; P9 lines 356-364; P10 lines 381-384.
 
-## Entry 005, examination schedule and workflow facts
+## Entry 005, examination schedule and reporting workflow
 
 - Date researched: 08 September 2026
 - Classification: OFFICIAL FACT
-- Source: September 2026 Information Bulletin
+- Source: September 2026 Information Bulletin, sections 4 and Appendix II
 - Finding: Main exam date stated is 06 September 2026. The bulletin states an additional 05 September 2026 date could be used if candidate numbers increase.
 - Finding: Paper II is scheduled 09:30 AM to 12:00 noon and Paper I 02:30 PM to 05:00 PM, each 2.5 hours.
-- Finding: Candidates are instructed to report 120 minutes before the start, 07:30 AM for Paper II and 12:30 PM for Paper I. Reporting after the examination start time is not permitted.
-- Finding: Examination centre/city is allotted by CBSE on a random basis and cannot be changed by request under the stated rule. If the 05 September contingency date is used in a city, date allocation is also random under the bulletin.
-- Evidence: P1 lines 25-28; P6 lines 206-215; P10 lines 385-405.
+- Finding: Examination rooms/halls open 120 minutes before the start, 07:30 AM for Paper II and 12:30 PM for Paper I. Candidates arriving after commencement are not permitted to sit.
+- Finding: A valid Admit Card is required. A seat indicating the roll number is allocated, and candidates must occupy the allocated seat.
+- Finding: Candidates must not leave the examination room before the full duration without special permission, and must hand over the OMR sheet and sign the attendance sheet a second time before leaving.
+- Evidence: P6 lines 206-215; P20 lines 811-828; P20 lines 838-852.
 
 ## Entry 006, research constraints
 
@@ -63,10 +65,76 @@ This ledger records verified examination research. Every material claim must car
 - Decision: Do not infer official topic-level percentages from the bulletin's statements that subject divisions are evenly distributed. Historical distributions require verified official paper binaries and must be labelled ANALYTICAL ESTIMATE.
 - Decision: Do not enter Phase 2 acquisition solely because archive links exist. Binary acquisition requires actual bytes in the controlled environment, SHA-256, ZIP validation and provenance verification.
 
+## Entry 007, syllabus appendix inventory
+
+- Date researched: 08 September 2026
+- Classification: OFFICIAL FACT
+- Source: September 2026 Information Bulletin, Appendix I, pages 13-20
+- Finding: Appendix I is the current bulletin's syllabus structure for Paper I and Paper II.
+- Finding: Paper I syllabus explicitly inventories Child Development and Pedagogy as 15 Child Development, 5 Inclusive Education and Special Needs, and 10 Learning and Pedagogy questions; Mathematics as 15 Content and 15 Pedagogical Issues; EVS as 15 Content and 15 Pedagogical Issues; Language I as 15 Language Comprehension and 15 Pedagogy of Language Development; Language II as 15 Comprehension and 15 Pedagogy of Language Development.
+- Finding: Paper I Language I specifies two unseen passages, one prose or drama and one poem. Language II specifies two unseen prose passages. Both include comprehension/grammar/verbal ability elements as stated.
+- Finding: Paper II syllabus explicitly inventories Child Development and Pedagogy with the same 15/5/10 question structure; Mathematics with 20 Content and 10 Pedagogical Issues; Science with 20 Content and 10 Pedagogical Issues; Social Studies/Social Science with 40 Content and 20 Pedagogical Issues; Language I and Language II each with 15 comprehension and 15 pedagogy questions.
+- Finding: Paper II Mathematics and Science are 30 questions each within the 60-question combined choice. Social Studies/Social Science is 60 questions.
+- Finding: The bulletin states detailed classes I-VIII syllabus should be read with NCERT syllabus and textbooks. This project must therefore preserve the bulletin taxonomy and separately identify NCERT-derived detail rather than inventing a new official taxonomy.
+- Evidence: P13-P15 lines 493-617; P16-P19 lines 619-807; P19-P20 line 808.
+
+## Entry 008, OMR response mechanics
+
+- Date researched: 08 September 2026
+- Classification: OFFICIAL FACT
+- Source: September 2026 Information Bulletin, Appendix II, instructions for use of Test Booklet and OMR Sheet
+- Finding: The OMR sheet is placed inside the sealed Test Booklet and is opened only after the invigilator announcement.
+- Finding: Test Booklet code A/B/C/D on the OMR must match the Test Booklet. The OMR is scanned optically and must not be folded or receive stray marks.
+- Finding: OMR particulars are filled with the candidate's own black/blue ball point pen; pencil is prohibited. Side 1 includes roll number, candidate name, father's name, centre number, centre name and Paper II subject where applicable. Side 2 includes roll number, main Test Booklet number, language supplement booklet number/code, Paper II subject where applicable, attempted-language field and candidate signature.
+- Finding: Only one of four response circles is to be completely darkened. More than one marked option receives no marks. Once marked, an answer cannot be changed. Eraser/white fluid is prohibited.
+- Finding: An unattempted question is represented by leaving its response circles blank. Rough work is performed in the Test Booklet, not on the OMR sheet.
+- Finding: The candidate must return the OMR sheet before leaving. The Test Booklet may be carried only after completion of the test.
+- Finding: The bulletin states that incorrect booklet-number marking or omission may cause OMR rejection.
+- Evidence: P23-P25 lines 941-1047.
+
+## Entry 009, examination conduct mechanics
+
+- Date researched: 08 September 2026
+- Classification: OFFICIAL FACT
+- Source: September 2026 Information Bulletin, Appendix II
+- Finding: Fifteen minutes before commencement, candidates receive the sealed Test Booklet with OMR sheet inside and fill required booklet particulars with their own black/blue ball point pen.
+- Finding: Five minutes before commencement, candidates are instructed to open the seal, check the Test Booklet code against the OMR and report discrepancies for replacement.
+- Finding: Candidates must write the correct Test Booklet code/number in the Attendance Sheet. The test starts exactly at the stated time.
+- Finding: The invigilator announces the start, half-time and closing. Candidates must stop marking immediately at the closing announcement.
+- Finding: Candidates must check page count and report missing, torn or misprinted pages immediately. Removal of pages is treated as unfair means.
+- Finding: Candidates sign the Attendance Sheet twice, once after commencement and once when handing over the OMR sheet.
+- Finding: The bulletin prohibits specified stationery, communication devices, watches, bags and other listed items. It also prohibits food/drinks other than drinking water in the examination hall.
+- Evidence: P20-P22 lines 846-886; P22 lines 888-939.
+
+## Entry 010, current-cycle public notice check
+
+- Date researched: 08 September 2026
+- Classification: OFFICIAL FACT
+- Source: CTET official homepage and Public Notice dated 07 September 2026
+- Finding: The CTET official homepage currently lists a CTET September 2026 correction window as the latest news/public notice, with last date 10 September 2026.
+- Finding: The 07 September 2026 notice states an additional application opportunity ran from 25 August 2026 to 01 September 2026 and the correction facility is available from 07 September 2026 to 10 September 2026. No correction is permitted after 10 September 2026.
+- Finding: This notice changes application operational timing only. It does not supersede the September 2026 bulletin's examination structure, scoring, language, syllabus or OMR rules.
+- Evidence: Official CTET homepage lines 55-73; notice PDF P0 lines 1-14.
+
+## Entry 011, question numbering and section sequencing
+
+- Date researched: 08 September 2026
+- Classification: UNVERIFIED
+- Finding: The September 2026 bulletin verifies section/component order in its structure tables and appendix headings, but it does not publish exact question-number ranges such as Q1-Q30 for each section.
+- Finding: Exact paper question numbering, printed section sequencing, passage/question-set numbering and set-specific layout require inspection of official question-paper evidence. The current project is prohibited from acquiring or processing those binaries until Phase 1 is accepted and Phase 2 is explicitly opened.
+- Decision: Do not infer exact question-number ranges from historical papers or secondary sources. Keep this item UNVERIFIED until authoritative current-cycle paper evidence is available under the approved acquisition gate.
+
+## Entry 012, Phase 1 gate evaluation
+
+- Date researched: 08 September 2026
+- Classification: PRODUCT DECISION
+- Evaluation: Most Milestone 1 acceptance areas are now evidenced from the September 2026 official bulletin and current official notice set, including cycle identification, paper structure, counts, marks, duration, MCQ format, marking, language options, qualification, schedule, examination conduct, OMR mechanics and syllabus inventory.
+- Evaluation: Milestone 1 is NOT COMPLETE because exact question numbering/printed section sequencing remains UNVERIFIED and the project has not yet established current-cycle question-paper evidence under the permitted binary gate.
+- Evaluation: Phase 2 acquisition remains LOCKED. No approval to acquire binaries, extract files, segment questions, map answer keys, calculate historical distributions or generate mocks is granted by this entry.
+
 ## Open research items
 
-- Complete exact section sequencing and question numbering for Paper I and Paper II.
-- Inspect all appendix syllabus content and map the official topic taxonomy.
-- Verify examination conduct workflow, OMR instructions and candidate response mechanics.
-- Verify official question-paper and final-answer-key inventory for recent cycles.
-- Determine the explicit Phase 1 completion criteria and Phase 2 acquisition gate.
+- Resolve exact question numbering and printed section sequencing from authoritative current-cycle question-paper evidence after Phase 1 acceptance and Phase 2 gate opening.
+- Preserve the official appendix taxonomy and, when permitted, map detailed NCERT syllabus content without presenting derived taxonomy as CBSE-published taxonomy.
+- Maintain monitoring for current-cycle CTET notices that alter examination operations or supersede bulletin instructions.
+- Complete explicit Phase 1 exit evidence and gate approval before binary acquisition.
