@@ -152,10 +152,19 @@ This ledger records verified examination research. Every material claim must car
 - Consequence: The absence of current-cycle printed numbering evidence must not be used to declare Milestone 1 incomplete or to repeatedly search for unavailable numbering evidence.
 - Constraint: This decision does not authorize binary acquisition, extraction, OCR, segmentation, answer-key mapping, weightage analysis, difficulty analysis, repetition analysis or mock generation.
 
+## Entry 015, Phase 1 approval readiness
+
+- Date researched: 08 September 2026
+- Classification: PRODUCT DECISION
+- Evaluation: Current-HEAD Codespace synchronization is verified at ae74fcb2752cd890038226179cf8fb743aea2a5a with a clean working tree.
+- Evaluation: Required Phase 1 examination-specification category A evidence is complete and supported by the current September 2026 official bulletin and current official notice inventory.
+- Evaluation: Category B paper-presentation evidence remains UNVERIFIED, but is explicitly NON-BLOCKING and DEFERRED under D006.
+- Decision: Milestone 1 is READY FOR FORMAL PHASE 1 EXIT APPROVAL. Do not open Phase 2 acquisition until explicit approval is recorded.
+
 ## Open research items
 
-- Complete the formal Phase 1 gate record against the required examination-specification category.
+- Record the formal Phase 1 exit decision and explicit approval before opening Phase 2.
 - Preserve the official appendix taxonomy and, when permitted, map detailed NCERT syllabus content without presenting derived taxonomy as CBSE-published taxonomy.
 - Maintain monitoring for current-cycle CTET notices that alter examination operations or supersede bulletin instructions.
 - When authoritative September 2026 question-paper evidence is published, retain exact printed numbering and paper-presentation attributes as downstream evidence for the appropriate later phase.
-- Do not acquire or process September 2026 binaries in the current task.
+- Do not acquire or process September 2026 binaries before Phase 2 approval is recorded.
