@@ -41,3 +41,11 @@
 - Decision: Exact current-cycle printed question numbering and paper presentation layout are downstream paper-evidence attributes, not required Phase 1 examination-specification attributes. They remain UNVERIFIED and NON-BLOCKING until authoritative September 2026 question-paper evidence is published.
 - Rationale: The September 2026 Information Bulletin establishes the examination specification but does not publish exact printed question-number ranges or set-specific paper presentation. The current official document inventory reviewed does not expose September 2026 question-paper evidence needed to verify those downstream attributes.
 - Consequence: Historical papers, secondary sources, filenames, metadata and screenshots must not be used to infer current-cycle printed numbering or layout. Their absence must not be used to declare Milestone 1 incomplete.
+
+## D007, Phase 1 exit approval readiness
+
+- Date: 08 September 2026
+- Classification: PRODUCT DECISION
+- Decision: Milestone 1 examination-specification evidence is READY FOR FORMAL PHASE 1 EXIT APPROVAL. The required category A specification evidence is complete; category B printed paper-presentation evidence remains UNVERIFIED, NON-BLOCKING and DEFERRED.
+- Rationale: The current September 2026 bulletin and current official notice inventory establish the required examination specification, while the governance correction explicitly removes current-cycle printed numbering and layout from the Phase 1 acceptance gate.
+- Constraint: This readiness decision does not open Phase 2. Explicit approval must be recorded before official binaries are acquired or processed.
