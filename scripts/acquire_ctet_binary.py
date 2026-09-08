@@ -26,7 +26,7 @@ def main() -> int:
         print(f"DRY_RUN {destination}")
         return 0
     evidence = validate_binary(destination, package)
-    output = Path(args.evidence or f"reports/acquisition/{destination.stem}.json")
+    output = Path(args.evidence or f"reports/binary/{destination.stem}.json")
     write_evidence(evidence, output)
     print(f"SHA256 {evidence.sha256}")
     print(f"LIFECYCLE {evidence.lifecycle.value}")
