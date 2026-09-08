@@ -12,6 +12,7 @@ __pycache__/
 htmlcov/
 .mypy_cache/
 *.zip
+!data/official/**/*.zip
 *.pdf
 *.docx
 *.xlsx
