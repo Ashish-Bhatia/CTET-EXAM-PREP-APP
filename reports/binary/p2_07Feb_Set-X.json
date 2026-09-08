@@ -1,0 +1,86 @@
+{
+  "acquisition_timestamp": "2026-09-08T00:25:24.634713+00:00",
+  "byte_size": 4115354,
+  "crc_valid": true,
+  "diagnostics": [],
+  "lifecycle": "OFFICIAL_BINARY_VERIFIED",
+  "local_file": "data/official/feb-2026/p2_07Feb_Set-X.zip",
+  "member_inventory": [
+    {
+      "compressed_size": 0,
+      "crc": "00000000",
+      "path": "Set-X/",
+      "read_bytes": 0,
+      "size": 0,
+      "type": "directory"
+    },
+    {
+      "compressed_size": 536196,
+      "crc": "0c3d2993",
+      "path": "Set-X/Assamese-X.pdf",
+      "read_bytes": 617801,
+      "size": 617801,
+      "type": "file"
+    },
+    {
+      "compressed_size": 535628,
+      "crc": "0726e8f4",
+      "path": "Set-X/Bengali-X.pdf",
+      "read_bytes": 614362,
+      "size": 614362,
+      "type": "file"
+    },
+    {
+      "compressed_size": 1213970,
+      "crc": "2a785368",
+      "path": "Set-X/Main-X.pdf",
+      "read_bytes": 1288105,
+      "size": 1288105,
+      "type": "file"
+    },
+    {
+      "compressed_size": 470379,
+      "crc": "c983cf1e",
+      "path": "Set-X/Marathi-X.pdf",
+      "read_bytes": 564361,
+      "size": 564361,
+      "type": "file"
+    },
+    {
+      "compressed_size": 525237,
+      "crc": "f16e4843",
+      "path": "Set-X/Sanskrit-X.pdf",
+      "read_bytes": 612877,
+      "size": 612877,
+      "type": "file"
+    },
+    {
+      "compressed_size": 832906,
+      "crc": "979b84b7",
+      "path": "Set-X/Urdu-X.pdf",
+      "read_bytes": 875535,
+      "size": 875535,
+      "type": "file"
+    }
+  ],
+  "package": {
+    "drive_file_id": "1FAjFRFH3WZNdClwnYsQKvNx_gYvWE9LP",
+    "exam_cycle": "February 2026",
+    "exam_date": "07 Feb 2026",
+    "expected_package_type": "ZIP",
+    "filename": "p2_07Feb_Set-X.zip",
+    "identity_key": "February-2026_2026-02-07_Paper-II_Set-X_p2_07Feb_Set-X.zip",
+    "official_drive_url": "https://drive.google.com/file/d/1FAjFRFH3WZNdClwnYsQKvNx_gYvWE9LP/view?usp=sharing",
+    "official_page_url": "https://ctet.nic.in/question-paper-feb-2026/",
+    "paper": "Paper II",
+    "set_name": "X"
+  },
+  "provenance": {
+    "drive_file_id": "1FAjFRFH3WZNdClwnYsQKvNx_gYvWE9LP",
+    "official_drive_url": "https://drive.google.com/file/d/1FAjFRFH3WZNdClwnYsQKvNx_gYvWE9LP/view?usp=sharing",
+    "official_page_url": "https://ctet.nic.in/question-paper-feb-2026/",
+    "source_verified": true
+  },
+  "sha256": "084d2717216ef7c32cdcb1ff57773e0e6446603a0fa49e3db71c702574b60c7f",
+  "zip_valid": true
+}

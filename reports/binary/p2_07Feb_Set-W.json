@@ -1,0 +1,94 @@
+{
+  "acquisition_timestamp": "2026-09-08T00:22:43.433644+00:00",
+  "byte_size": 4115094,
+  "crc_valid": true,
+  "diagnostics": [],
+  "lifecycle": "OFFICIAL_BINARY_VERIFIED",
+  "local_file": "data/official/feb-2026/p2_07Feb_Set-W.zip",
+  "member_inventory": [
+    {
+      "compressed_size": 0,
+      "crc": "00000000",
+      "path": "Set-W/",
+      "read_bytes": 0,
+      "size": 0,
+      "type": "directory"
+    },
+    {
+      "compressed_size": 535472,
+      "crc": "f931c47b",
+      "path": "Set-W/Assamese-W.pdf",
+      "read_bytes": 616343,
+      "size": 616343,
+      "type": "file"
+    },
+    {
+      "compressed_size": 535113,
+      "crc": "43bc2df7",
+      "path": "Set-W/Bengali-W.pdf",
+      "read_bytes": 613824,
+      "size": 613824,
+      "type": "file"
+    },
+    {
+      "compressed_size": 1193058,
+      "crc": "842a9fa1",
+      "path": "Set-W/Main-W.pdf",
+      "read_bytes": 1286435,
+      "size": 1286435,
+      "type": "file"
+    },
+    {
+      "compressed_size": 469915,
+      "crc": "afd151b9",
+      "path": "Set-W/Marathi-W.pdf",
+      "read_bytes": 563895,
+      "size": 563895,
+      "type": "file"
+    },
+    {
+      "compressed_size": 524629,
+      "crc": "f78d9f9e",
+      "path": "Set-W/Sanskrit-W.pdf",
+      "read_bytes": 612262,
+      "size": 612262,
+      "type": "file"
+    },
+    {
+      "compressed_size": 22974,
+      "crc": "ed640c52",
+      "path": "Set-W/Thumbs.db",
+      "read_bytes": 26624,
+      "size": 26624,
+      "type": "file"
+    },
+    {
+      "compressed_size": 832753,
+      "crc": "2b260614",
+      "path": "Set-W/Urdu-W.pdf",
+      "read_bytes": 874785,
+      "size": 874785,
+      "type": "file"
+    }
+  ],
+  "package": {
+    "drive_file_id": "1ELsT1Khh1y67V_vF6uSrVBX9SU0jXlUG",
+    "exam_cycle": "February 2026",
+    "exam_date": "07 Feb 2026",
+    "expected_package_type": "ZIP",
+    "filename": "p2_07Feb_Set-W.zip",
+    "identity_key": "February-2026_2026-02-07_Paper-II_Set-W_p2_07Feb_Set-W.zip",
+    "official_drive_url": "https://drive.google.com/file/d/1ELsT1Khh1y67V_vF6uSrVBX9SU0jXlUG/view?usp=sharing",
+    "official_page_url": "https://ctet.nic.in/question-paper-feb-2026/",
+    "paper": "Paper II",
+    "set_name": "W"
+  },
+  "provenance": {
+    "drive_file_id": "1ELsT1Khh1y67V_vF6uSrVBX9SU0jXlUG",
+    "official_drive_url": "https://drive.google.com/file/d/1ELsT1Khh1y67V_vF6uSrVBX9SU0jXlUG/view?usp=sharing",
+    "official_page_url": "https://ctet.nic.in/question-paper-feb-2026/",
+    "source_verified": true
+  },
+  "sha256": "67e569539b3d9e4805c640ae25774d4355c5ac41f38bde31b828f3a60b16d4a8",
+  "zip_valid": true
+}
