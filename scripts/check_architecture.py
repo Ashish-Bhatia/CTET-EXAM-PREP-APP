@@ -15,7 +15,7 @@ REQUIRED = [
 ]
 FORBIDDEN_PATH_PARTS = {"acquisition", "ocr", "question_bank", "mocks"}
 FORBIDDEN_BINARY_SUFFIXES = {".zip", ".pdf", ".docx", ".xlsx"}
-ALLOWED_GOVERNANCE_PREFIX = "docs/acquisition/"
+ALLOWED_GOVERNANCE_PREFIXES = ("docs/acquisition/",)
 ALLOWED_OFFICIAL_BINARY_PREFIX = "data/official/"
 
 
@@ -33,7 +33,7 @@ def main() -> int:
     for path in tracked:
         normalized = path.replace("\\", "/")
         parts = set(Path(normalized).parts)
-        if parts & FORBIDDEN_PATH_PARTS and not normalized.startswith(ALLOWED_GOVERNANCE_PREFIX):
+        if parts & FORBIDDEN_PATH_PARTS and not normalized.startswith(ALLOWED_GOVERNANCE_PREFIXES):
             print(f"Forbidden foundation path: {path}")
             return 1
         suffix = Path(normalized).suffix.lower()
