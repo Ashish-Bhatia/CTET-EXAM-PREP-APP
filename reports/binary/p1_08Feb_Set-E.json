@@ -1,0 +1,190 @@
+{
+  "acquisition_timestamp": "2026-09-08T00:30:27.374392+00:00",
+  "byte_size": 9423506,
+  "crc_valid": true,
+  "diagnostics": [],
+  "lifecycle": "OFFICIAL_BINARY_VERIFIED",
+  "local_file": "data/official/feb-2026/p1_08Feb_Set-E.zip",
+  "member_inventory": [
+    {
+      "compressed_size": 0,
+      "crc": "00000000",
+      "path": "Set-E/",
+      "read_bytes": 0,
+      "size": 0,
+      "type": "directory"
+    },
+    {
+      "compressed_size": 187832,
+      "crc": "96ed47bc",
+      "path": "Set-E/FSC Paper I Assamese EEEE.pdf",
+      "read_bytes": 226295,
+      "size": 226295,
+      "type": "file"
+    },
+    {
+      "compressed_size": 197415,
+      "crc": "66d0c78a",
+      "path": "Set-E/FSC Paper I Bengali EEEE.pdf",
+      "read_bytes": 232801,
+      "size": 232801,
+      "type": "file"
+    },
+    {
+      "compressed_size": 357070,
+      "crc": "3b341e4b",
+      "path": "Set-E/FSC Paper I Eng+Hin EEEE.pdf",
+      "read_bytes": 401113,
+      "size": 401113,
+      "type": "file"
+    },
+    {
+      "compressed_size": 192882,
+      "crc": "ca30ebef",
+      "path": "Set-E/FSC Paper I Garo EEEE.pdf",
+      "read_bytes": 223184,
+      "size": 223184,
+      "type": "file"
+    },
+    {
+      "compressed_size": 237362,
+      "crc": "4b50b770",
+      "path": "Set-E/FSC Paper I Gujarati EEEE.pdf",
+      "read_bytes": 282255,
+      "size": 282255,
+      "type": "file"
+    },
+    {
+      "compressed_size": 218260,
+      "crc": "d07c92a3",
+      "path": "Set-E/FSC Paper I Kannada EEEE.pdf",
+      "read_bytes": 253574,
+      "size": 253574,
+      "type": "file"
+    },
+    {
+      "compressed_size": 207832,
+      "crc": "532c8005",
+      "path": "Set-E/FSC Paper I Khasi EEEE.pdf",
+      "read_bytes": 241028,
+      "size": 241028,
+      "type": "file"
+    },
+    {
+      "compressed_size": 217155,
+      "crc": "654cf965",
+      "path": "Set-E/FSC Paper I Malayalam EEEE.pdf",
+      "read_bytes": 253884,
+      "size": 253884,
+      "type": "file"
+    },
+    {
+      "compressed_size": 184741,
+      "crc": "fbb0cb1a",
+      "path": "Set-E/FSC Paper I Manipuri EEEE.pdf",
+      "read_bytes": 221346,
+      "size": 221346,
+      "type": "file"
+    },
+    {
+      "compressed_size": 173906,
+      "crc": "1a265cdd",
+      "path": "Set-E/FSC Paper I Marathi EEEE.pdf",
+      "read_bytes": 207462,
+      "size": 207462,
+      "type": "file"
+    },
+    {
+      "compressed_size": 188777,
+      "crc": "5974b716",
+      "path": "Set-E/FSC Paper I Mizo EEEE.pdf",
+      "read_bytes": 220071,
+      "size": 220071,
+      "type": "file"
+    },
+    {
+      "compressed_size": 155818,
+      "crc": "f636d417",
+      "path": "Set-E/FSC Paper I Nepali EEEE.pdf",
+      "read_bytes": 187125,
+      "size": 187125,
+      "type": "file"
+    },
+    {
+      "compressed_size": 198482,
+      "crc": "9c951a86",
+      "path": "Set-E/FSC Paper I Odia EEEE.pdf",
+      "read_bytes": 233078,
+      "size": 233078,
+      "type": "file"
+    },
+    {
+      "compressed_size": 159463,
+      "crc": "240bd17f",
+      "path": "Set-E/FSC Paper I Punjabi EEEE.pdf",
+      "read_bytes": 190079,
+      "size": 190079,
+      "type": "file"
+    },
+    {
+      "compressed_size": 161728,
+      "crc": "a247f766",
+      "path": "Set-E/FSC Paper I Sanskrit EEEE.pdf",
+      "read_bytes": 190033,
+      "size": 190033,
+      "type": "file"
+    },
+    {
+      "compressed_size": 228299,
+      "crc": "9d9f0fdd",
+      "path": "Set-E/FSC Paper I Tamil EEEE.pdf",
+      "read_bytes": 273380,
+      "size": 273380,
+      "type": "file"
+    },
+    {
+      "compressed_size": 330352,
+      "crc": "078ab3f2",
+      "path": "Set-E/FSC Paper I Telugu EEEE.pdf",
+      "read_bytes": 383024,
+      "size": 383024,
+      "type": "file"
+    },
+    {
+      "compressed_size": 5556914,
+      "crc": "030a9070",
+      "path": "Set-E/FSC Paper I Urdu EEEEE.pdf",
+      "read_bytes": 5578523,
+      "size": 5578523,
+      "type": "file"
+    },
+    {
+      "compressed_size": 265670,
+      "crc": "b8daca4e",
+      "path": "Set-E/FSC Tibetan  PAPER-I  EEEE.pdf",
+      "read_bytes": 300328,
+      "size": 300328,
+      "type": "file"
+    }
+  ],
+  "package": {
+    "drive_file_id": "1NZiXv9hXKqvU1pyCkCxHB7400CYNPfRO",
+    "exam_cycle": "February 2026",
+    "exam_date": "08 Feb 2026",
+    "expected_package_type": "ZIP",
+    "filename": "p1_08Feb_Set-E.zip",
+    "identity_key": "February-2026_2026-02-08_Paper-I_Set-E_p1_08Feb_Set-E.zip",
+    "official_drive_url": "https://drive.google.com/file/d/1NZiXv9hXKqvU1pyCkCxHB7400CYNPfRO/view?usp=sharing",
+    "official_page_url": "https://ctet.nic.in/question-paper-feb-2026/",
+    "paper": "Paper I",
+    "set_name": "E"
+  },
+  "provenance": {
+    "drive_file_id": "1NZiXv9hXKqvU1pyCkCxHB7400CYNPfRO",
+    "official_drive_url": "https://drive.google.com/file/d/1NZiXv9hXKqvU1pyCkCxHB7400CYNPfRO/view?usp=sharing",
+    "official_page_url": "https://ctet.nic.in/question-paper-feb-2026/",
+    "source_verified": true
+  },
+  "sha256": "784af86089a5ac52141f2acb6b7ef46e1037f146c62313d27cf3ec89bfd1a6d9",
+  "zip_valid": true
+}
