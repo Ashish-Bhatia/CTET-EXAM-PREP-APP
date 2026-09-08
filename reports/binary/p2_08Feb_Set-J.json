@@ -1,0 +1,198 @@
+{
+  "acquisition_timestamp": "2026-09-08T00:33:50.523891+00:00",
+  "byte_size": 10524262,
+  "crc_valid": true,
+  "diagnostics": [],
+  "lifecycle": "OFFICIAL_BINARY_VERIFIED",
+  "local_file": "data/official/feb-2026/p2_08Feb_Set-J.zip",
+  "member_inventory": [
+    {
+      "compressed_size": 0,
+      "crc": "00000000",
+      "path": "Set-J/",
+      "read_bytes": 0,
+      "size": 0,
+      "type": "directory"
+    },
+    {
+      "compressed_size": 190863,
+      "crc": "4541770b",
+      "path": "Set-J/FSC Paper II Assamese JJJJ.pdf",
+      "read_bytes": 226785,
+      "size": 226785,
+      "type": "file"
+    },
+    {
+      "compressed_size": 211111,
+      "crc": "620c222f",
+      "path": "Set-J/FSC Paper II Bengali JJJJ.pdf",
+      "read_bytes": 247228,
+      "size": 247228,
+      "type": "file"
+    },
+    {
+      "compressed_size": 555853,
+      "crc": "de12661d",
+      "path": "Set-J/FSC Paper II Eng+Hin JJJJ.pdf",
+      "read_bytes": 655304,
+      "size": 655304,
+      "type": "file"
+    },
+    {
+      "compressed_size": 203172,
+      "crc": "2834d073",
+      "path": "Set-J/FSC Paper II Garo JJJJ.pdf",
+      "read_bytes": 235505,
+      "size": 235505,
+      "type": "file"
+    },
+    {
+      "compressed_size": 234497,
+      "crc": "1bf6a7f1",
+      "path": "Set-J/FSC Paper II Gujarati JJJJ.pdf",
+      "read_bytes": 279694,
+      "size": 279694,
+      "type": "file"
+    },
+    {
+      "compressed_size": 229210,
+      "crc": "5bcf2b07",
+      "path": "Set-J/FSC Paper II Kannada JJJJ.pdf",
+      "read_bytes": 265633,
+      "size": 265633,
+      "type": "file"
+    },
+    {
+      "compressed_size": 214418,
+      "crc": "72007433",
+      "path": "Set-J/FSC Paper II Khasi JJJJ.pdf",
+      "read_bytes": 245683,
+      "size": 245683,
+      "type": "file"
+    },
+    {
+      "compressed_size": 230250,
+      "crc": "597f32b7",
+      "path": "Set-J/FSC Paper II Malayalam JJJJ.pdf",
+      "read_bytes": 268604,
+      "size": 268604,
+      "type": "file"
+    },
+    {
+      "compressed_size": 180786,
+      "crc": "6804df91",
+      "path": "Set-J/FSC Paper II Manipuri JJJJ.pdf",
+      "read_bytes": 215190,
+      "size": 215190,
+      "type": "file"
+    },
+    {
+      "compressed_size": 179597,
+      "crc": "48b11b7f",
+      "path": "Set-J/FSC Paper II Marathi JJJJ.pdf",
+      "read_bytes": 212315,
+      "size": 212315,
+      "type": "file"
+    },
+    {
+      "compressed_size": 187895,
+      "crc": "30cf3a35",
+      "path": "Set-J/FSC Paper II Mizo JJJJ.pdf",
+      "read_bytes": 221867,
+      "size": 221867,
+      "type": "file"
+    },
+    {
+      "compressed_size": 154088,
+      "crc": "e39ea5ba",
+      "path": "Set-J/FSC Paper II Nepali JJJJ.pdf",
+      "read_bytes": 184363,
+      "size": 184363,
+      "type": "file"
+    },
+    {
+      "compressed_size": 196420,
+      "crc": "91e77972",
+      "path": "Set-J/FSC Paper II Odia JJJJ.pdf",
+      "read_bytes": 231941,
+      "size": 231941,
+      "type": "file"
+    },
+    {
+      "compressed_size": 166589,
+      "crc": "41092294",
+      "path": "Set-J/FSC Paper II Punjabi JJJJ.pdf",
+      "read_bytes": 197494,
+      "size": 197494,
+      "type": "file"
+    },
+    {
+      "compressed_size": 171820,
+      "crc": "11499786",
+      "path": "Set-J/FSC Paper II Sanskrit JJJJ.pdf",
+      "read_bytes": 201268,
+      "size": 201268,
+      "type": "file"
+    },
+    {
+      "compressed_size": 221377,
+      "crc": "3dd8d6ff",
+      "path": "Set-J/FSC Paper II Tamil JJJJ.pdf",
+      "read_bytes": 261782,
+      "size": 261782,
+      "type": "file"
+    },
+    {
+      "compressed_size": 321895,
+      "crc": "6d65e5d9",
+      "path": "Set-J/FSC Paper II Telugu JJJJ.pdf",
+      "read_bytes": 371209,
+      "size": 371209,
+      "type": "file"
+    },
+    {
+      "compressed_size": 6310096,
+      "crc": "7fbf29e5",
+      "path": "Set-J/FSC Paper II Urdu JJJJ.pdf",
+      "read_bytes": 6331658,
+      "size": 6331658,
+      "type": "file"
+    },
+    {
+      "compressed_size": 284429,
+      "crc": "0d53eb34",
+      "path": "Set-J/FSC Tibetan PAPER-II JJJJ.pdf",
+      "read_bytes": 331693,
+      "size": 331693,
+      "type": "file"
+    },
+    {
+      "compressed_size": 76174,
+      "crc": "d87cdcb7",
+      "path": "Set-J/Thumbs.db",
+      "read_bytes": 86528,
+      "size": 86528,
+      "type": "file"
+    }
+  ],
+  "package": {
+    "drive_file_id": "1U25EbwkcvG6I_7Alct4MmuK9lpUCJMlV",
+    "exam_cycle": "February 2026",
+    "exam_date": "08 Feb 2026",
+    "expected_package_type": "ZIP",
+    "filename": "p2_08Feb_Set-J.zip",
+    "identity_key": "February-2026_2026-02-08_Paper-II_Set-J_p2_08Feb_Set-J.zip",
+    "official_drive_url": "https://drive.google.com/file/d/1U25EbwkcvG6I_7Alct4MmuK9lpUCJMlV/view?usp=sharing",
+    "official_page_url": "https://ctet.nic.in/question-paper-feb-2026/",
+    "paper": "Paper II",
+    "set_name": "J"
+  },
+  "provenance": {
+    "drive_file_id": "1U25EbwkcvG6I_7Alct4MmuK9lpUCJMlV",
+    "official_drive_url": "https://drive.google.com/file/d/1U25EbwkcvG6I_7Alct4MmuK9lpUCJMlV/view?usp=sharing",
+    "official_page_url": "https://ctet.nic.in/question-paper-feb-2026/",
+    "source_verified": true
+  },
+  "sha256": "199447b4fc5dc1cc37349f7096400f4cdf677dc22256a8a1ba40adad304bd22b",
+  "zip_valid": true
+}
