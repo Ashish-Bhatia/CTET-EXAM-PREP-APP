@@ -15,7 +15,7 @@ REQUIRED = [
 ]
 FORBIDDEN_PATH_PARTS = {"acquisition", "ocr", "question_bank", "mocks"}
 FORBIDDEN_BINARY_SUFFIXES = {".zip", ".pdf", ".docx", ".xlsx"}
-ALLOWED_GOVERNANCE_PREFIXES = ("docs/acquisition/",)
+ALLOWED_GOVERNANCE_PREFIXES = ("docs/acquisition/", "reports/binary/")
 ALLOWED_OFFICIAL_BINARY_PREFIX = "data/official/"
 
 
